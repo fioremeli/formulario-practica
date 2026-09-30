@@ -58,7 +58,7 @@
     });
   });
 
-  /* FORMULARIOS: validamos sin permitir el POST tradicional que produciría una redirección. */
+/* FORMULARIOS: validamos sin permitir el POST tradicional que produciría una redirección. */
   document.querySelectorAll('form[data-contact-form]').forEach(function (form) {
     const status = form.querySelector('[data-form-status]');
     const fields = Array.from(form.querySelectorAll('input[required], textarea[required]'));
